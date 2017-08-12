@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Rendering_shining</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page3.css"/>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="page1.html"><img src="img1/shininglogo.png"/></a>
+				<ul>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Bim</a></li>
+					<li><a href="">3D Animation</a></li>
+					<li><a href="Rendering_shining.html">Rendering</a></li>
+					<li><a href="About_shining.html">About</a></li>
+					<li><a href="shining.html">Home</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="img3/Banner (1).jpg"/></div>
+		        <div class="swiper-slide"><img src="img3/Banner (2).jpg"/></div>
+		        <div class="swiper-slide"><img src="img3/Banner (3).jpg"/></div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		</div>
+		
+		<ul id="wrap"></ul>
+		
+		<footer>
+			<div class="spic1">
+				<img src="img1/mail_h.jpg"/>
+				<img src="img1/mail.jpg" id="bpic1"/>
+			</div>
+			<div class="spic2">
+				<img src="img1/facebook_h.jpg"/>
+				<img src="img1/facebook.jpg" id="bpic2"/>
+			</div>
+			<div class="spic3">
+				<img src="img1/youtube_h.jpg"/>
+				<img src="img1/youtube.jpg" id="bpic3"/>
+			</div>
+			<div class="spic4">
+				<img src="img1/linkedln_h.jpg"/>
+				<img src="img1/linkedln.jpg" id="bpic4"/>
+			</div>
+			<div class="spic5">
+				<img src="img1/twitter_h.jpg"/>
+				<img src="img1/twitter.jpg" id="bpic5"/>
+			</div><br />
+			<h6>Copyright © 1998-2015 shining Group</p>
+		</footer>
+		<script src="js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/瀑布流.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var mySwiper = new Swiper ('.swiper-container', {
+			    direction: 'horizontal',
+			    loop: true,
+			    autoplay:2000,
+			    paginationClickable:true,
+			    pagination: '.swiper-pagination',
+			})
+			
+			loadimg();
+			
+		</script>
+	</body>
+</html>

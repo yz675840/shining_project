@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>shining</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page1.css"/>
+		<link rel="shortcut icon" href="facicon.ico">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="page1.html"><img src="img1/shininglogo.png"/></a>
+				<ul>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Bim</a></li>
+					<li><a href="">3D Animation</a></li>
+					<li><a href="Rendering_shining.html">Rendering</a></li>
+					<li><a href="About_shining.html">About</a></li>
+					<li><a href="shining.html">Home</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="wrap">
+			<div id="block1">
+				<div class="box1" id="part1"><img src="img1/home_pic_one.png"/></div>
+				<div class="box2" id="part2"><p>RENDERINGS</p>Masterplan、Public Building、commercial Building、Residential Building、Landscape Designa</div>
+			</div>
+			<div id="block2">
+				<div class="box2" id="part3"><p>BIM</p>Model Completion、Clash Detection、MEP Integration、Curtain Wall Remedying、BIM Consulting</div>
+				<div class="box1" id="part4"><img src="img1/home_pic_two.jpg"/></div>
+			</div>
+			<div id="block3">
+				<div class="box1" id="part5"><img src="img1/homes_pic_three.jpg"/></div>
+				<div class="box2" id="part6"><p>3D ANIMATION</p>Real estate advertising animation Design scheme Animation Corporate promotional Animation</div>
+			</div>
+		</div>
+		<footer>
+			<div class="spic1">
+				<img src="img1/mail_h.jpg"/>
+				<img src="img1/mail.jpg" id="bpic1"/>
+			</div>
+			<div class="spic2">
+				<img src="img1/facebook_h.jpg"/>
+				<img src="img1/facebook.jpg" id="bpic2"/>
+			</div>
+			<div class="spic3">
+				<img src="img1/youtube_h.jpg"/>
+				<img src="img1/youtube.jpg" id="bpic3"/>
+			</div>
+			<div class="spic4">
+				<img src="img1/linkedln_h.jpg"/>
+				<img src="img1/linkedln.jpg" id="bpic4"/>
+			</div>
+			<div class="spic5">
+				<img src="img1/twitter_h.jpg"/>
+				<img src="img1/twitter.jpg" id="bpic5"/>
+			</div><br />
+			<h6>Copyright © 1998-2015 shining Group</h6>
+		</footer>
+		<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#block1").mouseover(function(){
+				$("#part1>img").attr("src","img1/home_pic_one_h.png")
+				$("#part1").css("border-color","#D9E137")
+			})
+			$("#block1").mouseout(function(){
+				$("#part1>img").attr("src","img1/home_pic_one.png")
+				$("#part1").css("border-color","#B0B0B0")
+			})
+			$("#block2").mouseover(function(){
+				$("#part4>img").attr("src","img1/home_pic_two_h.png")
+				$("#part4").css("border-color","#D9E137")
+			})
+			$("#block2").mouseout(function(){
+				$("#part4>img").attr("src","img1/home_pic_two.jpg")
+				$("#part4").css("border-color","#B0B0B0")
+			})
+			$("#block3").mouseover(function(){
+				$("#part5>img").attr("src","img1/homes_pic_three_h.jpg")
+				$("#part5").css("border-color","#D9E137")
+			})
+			$("#block3").mouseout(function(){
+				$("#part5>img").attr("src","img1/homes_pic_three.jpg")
+				$("#part5").css("border-color","#B0B0B0")
+			})
+		</script>
+	</body>
+</html>
